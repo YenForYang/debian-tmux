@@ -1,0 +1,12 @@
+Package: tmux-dbgsym
+Source: tmux
+Version: 2.8-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Romain Francoise <rfrancoise@debian.org>
+Installed-Size: 826
+Depends: tmux (= 2.8-1)
+Section: debug
+Priority: optional
+Description: debug symbols for tmux
+Build-Ids: 1a83b72c234253238edf9b0664bf0fbb132b6dbf

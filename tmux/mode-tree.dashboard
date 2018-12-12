@@ -1,0 +1,12 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021", "-par-schedule-auto", "-ipo", "-DPACKAGE_NAME="tmux"", "-DPACKAGE_TARNAME="tmux"", "-DPACKAGE_VERSION="2.8"", "-DPACKAGE_STRING="tmux", "2.8"", "-DPACKAGE_BUGREPORT=""", "-DPACKAGE_URL=""", "-DPACKAGE="tmux"", "-DVERSION="2.8"", "-DSTDC_HEADERS=1", "-DHAVE_SYS_TYPES_H=1", "-DHAVE_SYS_STAT_H=1", "-DHAVE_STDLIB_H=1", "-DHAVE_STRING_H=1", "-DHAVE_MEMORY_H=1", "-DHAVE_STRINGS_H=1", "-DHAVE_INTTYPES_H=1", "-DHAVE_STDINT_H=1", "-DHAVE_UNISTD_H=1", "-D__EXTENSIONS__=1", "-D_ALL_SOURCE=1", "-D_GNU_SOURCE=1", "-D_POSIX_PTHREAD_SEMANTICS=1", "-D_TANDEM_SOURCE=1", "-DHAVE_DIRENT_H=1", "-DHAVE_FCNTL_H=1", "-DHAVE_INTTYPES_H=1", "-DHAVE_PATHS_H=1", "-DHAVE_PTY_H=1", "-DHAVE_STDINT_H=1", "-DHAVE_SYS_DIR_H=1", "-DHAVE_DIRFD=1", "-DHAVE_FLOCK=1", "-DHAVE_PRCTL=1", "-DHAVE_SYSCONF=1", "-DHAVE_ASPRINTF=1", "-DHAVE_CFMAKERAW=1", "-DHAVE_EXPLICIT_BZERO=1", "-DHAVE_MEMMEM=1", "-DHAVE_REALLOCARRAY=1", "-DHAVE_SETENV=1", "-DHAVE_STRCASESTR=1", "-DHAVE_STRNDUP=1", "-DHAVE_STRSEP=1", "-DHAVE_NCURSES_H=1", "-DHAVE_UTEMPTER=1", "-DHAVE_B64_NTOP=1", "-DHAVE_DAEMON=1", "-DHAVE_FORKPTY=1", "-DHAVE___PROGNAME=1", "-DHAVE_PROGRAM_INVOCATION_SHORT_NAME=1", "-DHAVE_PR_SET_NAME=1", "-DHAVE_PROC_PID=1", "-DTMUX_CONF="/etc/tmux.conf"", "-iquote.", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-D_DEFAULT_SOURCE", "-D_XOPEN_SOURCE=600", "-std=gnu99", "-O2", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/tmux/tmux=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-c", "-o", "mode-tree.o" ],
+    "objects" : [
+        {
+            "object_name" : "mode-tree.o",
+            "source_name" : "mode-tree.c",
+            "start_time" : "2018-12-01T12:30:51Z",
+            "end_time" : "2018-12-01T12:30:52Z"
+        }
+    ]
+}

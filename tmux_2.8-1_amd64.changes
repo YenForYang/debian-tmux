@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 18 Oct 2018 22:10:02 +0200
+Source: tmux
+Binary: tmux
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 2.8-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Romain Francoise <rfrancoise@debian.org>
+Changed-By: Romain Francoise <rfrancoise@debian.org>
+Description:
+ tmux       - terminal multiplexer
+Changes:
+ tmux (2.8-1) unstable; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ b34de62ec0898c53bcb3bec855e798df82fa7c89 756388 tmux-dbgsym_2.8-1_amd64.deb
+ 74dad7b7d383af638f83f55fed380a8e8c271ed9 5597 tmux_2.8-1_amd64.buildinfo
+ a6c783ed3939dd61a070ea8f5ea164cc6f55ec1a 411576 tmux_2.8-1_amd64.deb
+Checksums-Sha256:
+ f9597e4f95b5adc96e7b0523d8b5acae6db6cf82ef6525db56cf8b497c23cc9a 756388 tmux-dbgsym_2.8-1_amd64.deb
+ 1114ea4d4c969b17858c463cdf73dda0f1c7ff1a740375834a41522d24a962f2 5597 tmux_2.8-1_amd64.buildinfo
+ dcec49f9a8335b34261ede30974a62b98674662488e3dfd6a33f15dd67a4afd3 411576 tmux_2.8-1_amd64.deb
+Files:
+ b8fb4c0a80c14c44ebf194d887da46f5 756388 debug optional tmux-dbgsym_2.8-1_amd64.deb
+ df0db50251c2ee2cd3df707084775ba5 5597 admin optional tmux_2.8-1_amd64.buildinfo
+ 97d1d8a649da1ab9e33a70ab26d342e3 411576 admin optional tmux_2.8-1_amd64.deb

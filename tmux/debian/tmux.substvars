@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.27), libevent-2.1-6 (>= 2.1.8-stable), libtinfo6 (>= 6), libutempter0 (>= 1.1.5)
+misc:Depends=
+misc:Pre-Depends=
